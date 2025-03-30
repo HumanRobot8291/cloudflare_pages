@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>MongoDB CRUD</title>
+    <script src='static/js/script.js' defer></script>
+</head>
+<body>
+    <h2>MongoDB CRUD Form</h2>
+    <label>Name:</label> <input type='text' id='name'><br>
+    <label>Number:</label> <input type='text' id='number'><br>
+    <label>Email:</label> <input type='text' id='email'><br>
+    <label>Message:</label> <input type='text' id='message'><br>
+    <button onclick='submitData()'>Submit</button>
+    <button onclick='fetchData()'>Show Data</button>
+    <h3>Verify Your Data</h3>
+    <textarea id='dataDisplay' rows='10' cols='50'></textarea>
+</body>
+</html>
